@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Pop
+
+# Model Form Field configuration
+form: $/jc91715/demo/models/pop/fields.yaml
+
+# Model Class name
+modelClass: Jc91715\Demo\Models\Pop
+
+# Default redirect location
+defaultRedirect: jc91715/demo/pops
+
+# Create page
+#create:
+#    title: Create Pop
+#    redirect: jc91715/demo/pops/update/:id
+#    redirectClose: jc91715/demo/pops
+#
+## Update page
+#update:
+#    title: Edit Pop
+#    redirect: jc91715/demo/pops
+#    redirectClose: jc91715/demo/pops
+#
+## Preview page
+#preview:
+#    title: Preview Pop
